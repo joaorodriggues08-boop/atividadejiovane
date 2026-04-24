@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #222;
+  height: 100vh;
+  padding: 10px;
+}
+
+.sidebar button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.box {
+  display: none;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, textarea, button {
+  margin: 5px;
+  padding: 8px;
+}
